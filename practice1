@@ -1,0 +1,7 @@
+docker image save in tar and load in another host
+
+$ docker save -o my_image.tar my_image:tag
+
+and for loading
+
+$ docker load -i /path/to/my_image.tar
